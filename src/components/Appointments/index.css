@@ -1,0 +1,128 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-card {
+  width: 95%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+}
+.appointment-form-img-container {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+.form-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.appointments-img {
+  width: 500px;
+}
+
+@media (max-width: 767px) {
+  .appointments-img {
+    display: none;
+  }
+}
+.title-date-text {
+  color: #b5b7c4;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+.title-input {
+  width: 70%;
+  height: 40px;
+  font-size: 15px;
+
+  outline: none;
+  border-radius: 8px;
+  border: 2px solid #b5b7c4;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.date-input {
+  width: 70%;
+  height: 40px;
+  font-size: 15px;
+
+  outline: none;
+  border-radius: 8px;
+  border: 2px solid #b5b7c4;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.add-btn {
+  background-color: #8b5cf6;
+  border-width: 0px;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.hr-line {
+  border-width: 2px;
+  color: #b5b7c4;
+  outline: none;
+}
+.appointments-heading {
+  color: #171f46;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.appointments-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.heading-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.starred-btn {
+  background-color: transparent;
+  border: 2px solid #9897f0;
+  color: #9897f0;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.active-btn {
+  background-color: #9897f0;
+  color: #ffffff;
+}
+.list-container {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 3;
+}
